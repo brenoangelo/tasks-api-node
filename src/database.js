@@ -1,5 +1,3 @@
-
-
 export class Database {
   #database = {}
 
@@ -17,11 +15,36 @@ export class Database {
     }
   }
 
+  selectById(table, id) {
+    const data = this.#database[table] ?? []
+
+    return data.find(item => item.id === id)
+  }
+
   insert(table, data) {
     if(this.#database[table]) {
       this.#database[table].push(data)
     } else {
       this.#database[table] = [data]
     }
+  }
+
+  update(table, id, data) {
+    const currentData = this.selectById(table, id)
+    this.#database[table].splice(
+      id,
+      1,
+      {
+        ...currentData,
+        ...data
+      }
+    )
+  }
+
+  delete(table, id) {
+    this.#database[table].splice(
+      id,
+      1
+    )
   }
 }
