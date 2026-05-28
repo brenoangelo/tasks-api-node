@@ -1,5 +1,27 @@
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const databasePath = path.resolve(__dirname, '..', 'db.json')
+
 export class Database {
   #database = {}
+
+  constructor() {
+    try {
+      const data = fs.readFileSync(databasePath, 'utf-8')
+      this.#database = JSON.parse(data)
+    } catch (error) {
+      this.#persist()
+    }
+  }
+
+  #persist() {
+    fs.writeFileSync(databasePath, JSON.stringify(this.#database, null, 2))
+  }
 
   select(table, search) {
     let data = this.#database[table] ?? []
@@ -27,6 +49,8 @@ export class Database {
     } else {
       this.#database[table] = [data]
     }
+
+    this.#persist()
   }
 
   update(table, id, data) {
@@ -39,6 +63,7 @@ export class Database {
         ...data
       }
     )
+    this.#persist()
   }
 
   delete(table, id) {
@@ -46,5 +71,6 @@ export class Database {
       id,
       1
     )
+    this.#persist()
   }
 }

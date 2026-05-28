@@ -2,13 +2,16 @@ import http from 'node:http'
 import { json } from './middlewares/json.js'
 import { routes } from './routes.js'
 import { extractQueryParams } from './utils/extract-query-params.js'
+import { importTasksCsv } from './utils/import-tasks-csv.js'
 
 const PORT = 3333
 
 const server = http.createServer(async (req, res) => {
   const { method, url } = req
 
-  await json(req, res)
+  if(!url.includes('/csv')) {
+    await json(req, res)
+  }
 
   const route = routes.find(route => {
     return route.method === method && route.path.test(url)

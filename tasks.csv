@@ -1,0 +1,31 @@
+id,title,description,updated_at,created_at,completed
+724a2105-df1a-4be2-9844-33b668fca166,Comprar leite,Ir ao mercado e comprar leite desnatado,2026-05-27T10:00:00Z,2026-05-27T10:00:00Z,false
+3afb7852-bc91-4e43-8f0a-6e5fd7bdf2aa,Estudar Node.js,Praticar leitura de Streams e csv-parse,2026-05-27T11:15:00Z,2026-05-27T11:15:00Z,true
+8bc443ce-5de7-4ad3-9e49-fa08197c36a4,Academia,Treino de pernas e cardio,2026-05-27T08:00:00Z,2026-05-27T08:00:00Z,true
+059df395-6d60-4b5c-a548-8df0c34e893e,Lavar o carro,Lavar por dentro e por fora,2026-05-26T14:00:00Z,2026-05-26T14:00:00Z,false
+b2e3e5c9-94b1-4191-bb27-4de07e5b1580,Ler livro,Ler 15 paginas do livro de arquitetura,2026-05-27T12:00:00Z,2026-05-27T12:00:00Z,null
+1a603517-8e68-4fb6-9f7a-da70891823db,Reunião de Daily,Sincronizacao diaria com o time,2026-05-27T09:30:00Z,2026-05-27T09:00:00Z,true
+fa26df5d-be66-4122-b5e8-1c4b8b64efbd,Pagar conta de luz,Vencimento no final do mes,2026-05-25T16:20:00Z,2026-05-25T16:20:00Z,false
+2c4a938c-87d3-4a11-88f5-9ee82b793dc0,Atualizar curriculo,Adicionar novos projetos em Node.js,2026-05-27T14:00:00Z,2026-05-27T14:00:00Z,null
+91ef38a0-07bf-4f9e-bf3b-a25e985b8c6e,Consertar torneira,Torneira da cozinha esta pingando,2026-05-24T11:00:00Z,2026-05-24T11:00:00Z,true
+ed79e2a4-ea62-4f27-bc3e-3fdfdf349257,Meditar,Praticar 10 minutos de mindfulness,2026-05-27T06:30:00Z,2026-05-27T06:30:00Z,true
+d8c06f15-f55a-4e8c-8d18-36070fa56e2c,Almoço com a familia,Reservar mesa no restaurante,2026-05-27T11:00:00Z,2026-05-26T10:00:00Z,false
+a3765f49-514d-4be9-bf88-bd5e18ef7ad4,Revisar Pull Requests,Olhar o codigo dos colegas no GitHub,2026-05-27T15:30:00Z,2026-05-27T15:30:00Z,null
+5f3bd18e-47f3-4ca8-9bb3-55b8eb8346e9,Criar backup do banco,Fazer dump da base de dados de teste,2026-05-27T02:00:00Z,2026-05-27T02:00:00Z,true
+86cd7717-b08e-4a4f-9e79-bc9197dcda6b,Organizar mesa,Limpar a mesa de trabalho e organizar cabos,2026-05-27T16:00:00Z,2026-05-27T16:00:00Z,false
+10de278a-f5b2-4cd8-b0a5-296bda85bc94,Preparar marmitas,Cozinhar para a semana inteira,2026-05-24T18:00:00Z,2026-05-24T18:00:00Z,true
+6c33fa58-cfb1-419b-ab05-5da307e94e95,Estudar Ingles,Praticar conversacao por 30 minutos,2026-05-27T17:00:00Z,2026-05-27T17:00:00Z,null
+f7f73bb2-332e-4b67-ab99-d58ef8a192e2,Passear com o cachorro,Ir ao parque no fim da tarde,2026-05-27T18:15:00Z,2026-05-27T18:15:00Z,false
+29ee3bdc-0a61-46bb-be95-46e3da40089e,Comprar presente,Aniversario do meu irmao,2026-05-26T09:00:00Z,2026-05-26T09:00:00Z,true
+03d6d01d-54f0-40e8-b7ba-50d473b18501,Abastecer o carro,Colocar gasolina comum,2026-05-27T07:45:00Z,2026-05-27T07:45:00Z,true
+cd2e1a3f-eb57-4ba5-bc99-2e63cb88aef9,Marcar dentista,Consulta de rotina semestral,2026-05-27T13:20:00Z,2026-05-27T13:20:00Z,null
+dbbe0188-466d-4001-9ff4-46c5a2789df5,Configurar ESLint,Padronizar o codigo do projeto novo,2026-05-27T14:40:00Z,2026-05-27T14:40:00Z,false
+36b53293-1fe5-412f-9878-cb6754b2b2b1,Limpar teclado,Remover poeira entre as teclas,2026-05-25T10:00:00Z,2026-05-25T10:00:00Z,true
+7f6f7560-6b6a-4648-963e-6701bb1dfcf5,Assistir documentario,Documentario sobre computacao quantica,2026-05-27T21:00:00Z,2026-05-27T21:00:00Z,null
+ec084c8d-e6b7-4b71-9f93-02f8319ba22f,Beber 2L de agua,Meta diaria de hidratacao,2026-05-27T19:00:00Z,2026-05-27T08:00:00Z,true
+5132d733-40e9-4e08-9df2-5f653065a772,Debugar bug da rota,Consertar erro 500 no login,2026-05-27T11:50:00Z,2026-05-27T10:10:00Z,true
+07ce01d8-bdbe-4ef0-9e5c-756efeb06259,Planejar viagem,Pesquisar hoteis e passagens,2026-05-24T15:00:00Z,2026-05-24T15:00:00Z,false
+c9f35213-92f5-460d-9b56-78e20f188fb8,Trocar lampada,Lampada do corredor queimou,2026-05-26T20:00:00Z,2026-05-26T20:00:00Z,true
+8a09f3ea-0994-4bda-a0a6-b51f044bb77f,Cortar o cabelo,Horario agendado no barbeiro,2026-05-27T16:30:00Z,2026-05-27T16:30:00Z,null
+1b2e2d86-07fb-464a-bc12-1f4864811a2a,Testar nova IDE,Baixar e testar performance,2026-05-27T15:00:00Z,2026-05-27T15:00:00Z,false
+ee8fdf5a-3507-4bf7-bb30-02ba4df83da9,Dormir cedo,Garantir 8 horas de sono,2026-05-27T22:30:00Z,2026-05-27T22:30:00Z,false
